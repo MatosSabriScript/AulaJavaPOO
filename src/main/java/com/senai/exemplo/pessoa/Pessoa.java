@@ -4,9 +4,9 @@ public class Pessoa {
     String nome;
     int idade;
     float altura;
-    String endereco;
+    Endereco endereco;
 
-    public Pessoa(String nome, int idade, float altura, String endereco) {
+    public Pessoa(String nome, int idade, float altura, Endereco endereco) {
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
@@ -20,11 +20,11 @@ public class Pessoa {
     }
 
     public void falar(String frase){
-        System.out.println("A pessoa falou: " + frase);
+        System.out.println(nome+"A pessoa falou: " + frase);
     }
 
     public void comer(String alimento){
-        System.out.println("A pessoa comeu: " + alimento);
+        System.out.println(nome+"A pessoa comeu: " + alimento);
     }
 
     @Override
