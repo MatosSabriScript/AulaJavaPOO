@@ -5,7 +5,6 @@ public class Main {
         Pessoa pessoa1= new Pessoa("Nicoly", 20);
 
 
-        System.out.println(pessoa1.altura + ", " + pessoa1.idade + ", " + pessoa1.nome +
-                ", " + pessoa1.endereco);
+        System.out.println(pessoa1);
     }
 }
