@@ -1,4 +1,6 @@
-package com.senai.exrcicios;
+package com.senai.exercicios.produto;
+
+import java.util.Scanner;
 
 public class Produto {
     String nome;
@@ -20,7 +22,7 @@ public class Produto {
       //  return "O produto é: "+this.nome+ ","+ "o valor é:"+this.valor+ " e a quantidade é: "+ this.qtd;
    // }
 
-    public void exibirDetalhes(String detalhes){
+    public void exibirDetalhes(){
         System.out.println("O produto é: "+this.nome+ ","+ "o valor é:"+this.valor+ " e a quantidade é: "+ this.qtd);
     }
 
@@ -28,6 +30,14 @@ public class Produto {
         double total= (qtd*valor);
         System.out.println(total);
     }
+
+    public void atualizarProduto (int novoValor){
+        double total= (qtd*valor);
+        double totalizando=novoValor;
+        totalizando= qtd*novoValor;
+        System.out.println("O produto antes custava "+total+"\n agora custa"+ totalizando);
+    }
+
 
 
 }

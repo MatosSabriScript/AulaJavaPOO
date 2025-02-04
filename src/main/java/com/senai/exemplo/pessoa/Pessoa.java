@@ -29,6 +29,6 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "O nome da pessoa é "+this.nome+"tem "+this.idade+ "e tem de altura. "+this.altura+ "Seu endereço é "+ this.endereco;
+        return "O nome da pessoa é " +this.nome+" tem "+this.idade+ "  tem de altura:  "+this.altura+ "." + "Seu endereço é:  "+ this.endereco;
     }
 }
