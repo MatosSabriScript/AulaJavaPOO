@@ -17,11 +17,6 @@ public class Produto {
 
     }
 
-   // @Override
-    //public String toString() {
-      //  return "O produto é: "+this.nome+ ","+ "o valor é:"+this.valor+ " e a quantidade é: "+ this.qtd;
-   // }
-
     public void exibirDetalhes(){
         System.out.println("O produto é: "+this.nome+ ","+ "o valor é:"+this.valor+ " e a quantidade é: "+ this.qtd);
     }
