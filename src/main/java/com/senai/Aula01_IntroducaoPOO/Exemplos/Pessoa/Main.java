@@ -1,4 +1,4 @@
-package com.senai.exemplo.pessoa;
+package com.senai.Aula01_IntroducaoPOO.Exemplos.Pessoa;
 
 import java.util.Scanner;
 

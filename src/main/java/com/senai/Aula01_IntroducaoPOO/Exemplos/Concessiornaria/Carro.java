@@ -1,6 +1,4 @@
-package com.senai.exemplo.concessiornaria;
-
-import java.util.Scanner;
+package com.senai.Aula01_IntroducaoPOO.Exemplos.Concessiornaria;
 
 public class Carro {
     String modelo;
