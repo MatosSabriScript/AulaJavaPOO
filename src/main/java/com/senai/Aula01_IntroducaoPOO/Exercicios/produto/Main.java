@@ -1,4 +1,4 @@
-package com.senai.exercicios.produto;
+package com.senai.Aula01_IntroducaoPOO.Exercicios.produto;
 
 public class Main {
     public static void main(String[] args) {
