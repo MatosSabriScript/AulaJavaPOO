@@ -47,7 +47,7 @@ public class Reserva {
     }
 
     public static void exibirdados(){
-        System.out.println("\n Essa reserva é: ");
+        System.out.println("\nEssa reserva é: ");
     }
 
     public void calcularValorDiaria(){
