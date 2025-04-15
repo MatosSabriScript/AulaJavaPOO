@@ -1,4 +1,4 @@
-package com.senai.Aula06_Abstracao.exercicios.controle_entregas;
+package com.senai.Aula06_Abstracao.exercicios_abstracao.controle_entregas;
 
 public abstract class Entrega_Veiculo {
     int velocidadeAtual;

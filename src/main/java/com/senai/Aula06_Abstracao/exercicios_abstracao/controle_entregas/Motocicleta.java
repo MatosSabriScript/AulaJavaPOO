@@ -1,4 +1,4 @@
-package com.senai.Aula06_Abstracao.exercicios.controle_entregas;
+package com.senai.Aula06_Abstracao.exercicios_abstracao.controle_entregas;
 
 public class Motocicleta extends Entrega_Veiculo {
     protected double velocidadeMaxima = 80;  // A velocidade máxima de uma motocicleta é geralmente mais alta do que a de uma bicicleta.
