@@ -5,7 +5,8 @@ public class PrimeiroPricipio {
         public void processar(int[] numeros) {
             int soma = calcularSoma(numeros);
             int maior = encontrarMaior(numeros);
-            exibirResultados(soma, maior);
+
+            exibirResultados(soma,maior);
         }
 
         private int calcularSoma(int[] numeros) {
